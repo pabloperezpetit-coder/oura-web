@@ -16,3 +16,6 @@ const mini=document.querySelector('.mini-player');let fullPlayerVisible=true,has
 function updateMini(){mini.hidden=!hasPlayed||fullPlayerVisible;document.body.classList.toggle('has-mini',!mini.hidden);document.getElementById('mini-toggle').textContent=audio.paused?'Play':'Pausar';}
 if('IntersectionObserver' in window)new IntersectionObserver(entries=>{fullPlayerVisible=entries[0].isIntersecting;updateMini()},{threshold:0}).observe(document.querySelector('.record'));
 audio.addEventListener('play',()=>{hasPlayed=true;updateMini()});audio.addEventListener('pause',updateMini);audio.addEventListener('ended',()=>{hasPlayed=false;updateMini()});audio.addEventListener('timeupdate',()=>{document.getElementById('mini-time').textContent=format(audio.currentTime)});
+
+// Entradas Club Conjura: se mantiene separado para poder revertirlo fácilmente.
+const ticketScript=document.createElement('script');ticketScript.src='tickets.js?v=1';ticketScript.defer=true;document.body.appendChild(ticketScript);
