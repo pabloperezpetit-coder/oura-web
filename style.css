@@ -24,3 +24,8 @@ header{position:sticky;top:0;z-index:20;background:#111113f2;backdrop-filter:blu
 
 /* Identidad: emblema en cabecera, sin caja ni deformación */
 header .wordmark{width:106px;height:64px;display:flex;align-items:center;justify-content:center;overflow:hidden;flex:none}header .wordmark .site-logo{width:100%;height:100%;object-fit:contain;object-position:center;display:block;border:0;border-radius:0;box-shadow:none}@media(max-width:760px){header .wordmark{width:76px;height:50px}header .wordmark .site-logo{width:100%;height:100%}}
+
+/* Logo circular real, sin fondo cuadrado visible */
+header .wordmark{width:62px!important;height:62px!important;border-radius:50%;overflow:hidden;display:block!important;flex-shrink:0}
+header .wordmark .site-logo{display:block!important;width:100%!important;height:100%!important;aspect-ratio:1!important;object-fit:cover!important;object-position:center!important;border-radius:50%!important}
+@media(max-width:760px){header .wordmark{width:48px!important;height:48px!important}}
