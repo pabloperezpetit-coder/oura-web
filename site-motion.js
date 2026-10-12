@@ -1,0 +1,8 @@
+(()=>{const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const progress=document.createElement('div');progress.className='reading-progress';progress.setAttribute('aria-hidden','true');document.body.append(progress);
+const top=document.createElement('a');top.className='back-to-top';top.href='#inicio';top.setAttribute('aria-label','Volver arriba');top.textContent='↑';document.body.append(top);
+const targets=document.querySelectorAll('.section-heading,.song-story,.record,.video-head,.video-frame,.band-copy,.dates .show,.photos-heading,.photo-grid figure,.manifesto-copy,.manifesto-art');
+if(!reduced&&'IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}})},{threshold:.07,rootMargin:'0px 0px -30px 0px'});targets.forEach(el=>{el.classList.add('reveal-on-scroll');observer.observe(el)})}
+let scheduled=false;function update(){const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(max>0?Math.min(100,window.scrollY/max*100):0)+'%';top.classList.toggle('is-visible',window.scrollY>650);scheduled=false}
+window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(update)}},{passive:true});window.addEventListener('resize',update,{passive:true});update();
+})();
