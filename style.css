@@ -21,3 +21,6 @@ header{position:sticky;top:0;z-index:20;background:#111113f2;backdrop-filter:blu
 
 /* Emblema OURA en la navegación */
 .wordmark{display:inline-flex;align-items:center;letter-spacing:normal;flex-shrink:0}.site-logo{display:block;width:68px;height:68px;object-fit:contain}@media(max-width:760px){.site-logo{width:52px;height:52px}}
+
+/* Identidad: emblema en cabecera, sin caja ni deformación */
+header .wordmark{width:106px;height:64px;display:flex;align-items:center;justify-content:center;overflow:hidden;flex:none}header .wordmark .site-logo{width:100%;height:100%;object-fit:contain;object-position:center;display:block;border:0;border-radius:0;box-shadow:none}@media(max-width:760px){header .wordmark{width:76px;height:50px}header .wordmark .site-logo{width:100%;height:100%}}
