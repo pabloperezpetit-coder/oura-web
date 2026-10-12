@@ -99,3 +99,6 @@ footer{border-top:1px solid #675347!important}
 @media(max-width:800px){.hero h1{font-size:clamp(68px,14vw,110px)!important}.hero-photo{transform:none;box-shadow:6px 6px 0 #6a2d26!important}.manifesto-grid{grid-template-columns:1fr;gap:45px}.manifesto-copy h2{font-size:clamp(70px,14vw,120px)}.manifesto-art{max-width:470px;margin:auto}.photo-grid figure:nth-child(2),.photo-grid figure:nth-child(3){transform:none}.manifesto{padding-bottom:65px!important}}
 @media(max-width:480px){.manifesto-head{font-size:9px}.manifesto-copy h2{font-size:68px}.hero h1{font-size:clamp(60px,16vw,85px)!important}.music .section-heading h2{font-size:clamp(48px,12vw,72px)!important}}
 @media(prefers-reduced-motion:reduce){.manifesto-link,.photo-grid figure img{transition:none!important}}
+
+/* Quitar etiqueta decorativa superior derecha OURA / 001 */
+.hero::before{content:none!important;display:none!important}
