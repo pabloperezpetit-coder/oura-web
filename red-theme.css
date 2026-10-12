@@ -1,0 +1,42 @@
+/* OURA / rojo tonal — del vino oscuro al rojo vivo */
+:root{--bg:#140e10!important;--ink:#f0e6df!important;--muted:#b7a4a3!important;--accent:#c44240!important;--line:#604044!important}
+body{background:#140e10!important;color:#f0e6df!important}
+header{background:#140e10f2!important;border-bottom-color:#694347!important}
+nav a:hover,.text-link:hover,.eyebrow,.asterisk{color:#e77969!important}
+nav a:after{background:#d64b47!important}
+.nav-listen{border-color:#916267!important}
+.nav-listen:hover{background:#ba343b!important;border-color:#ba343b!important;color:#fff!important}
+.hero{background:radial-gradient(circle at 82% 28%,#4c222a 0%,#27151a 37%,#140e10 76%)!important}
+.hero h1 em{color:#ec6c5b!important}
+.hero-photo{box-shadow:13px 13px 0 #6c2733!important}
+.hero:after{color:#e8a3a0!important}
+.photo-tag,.primary,.badge,.cover-label{background:#ba343b!important;color:#fff1e8!important;border-color:#e27c6e!important}
+.primary:hover{background:#d54e4c!important;box-shadow:4px 4px 0 #e4b6aa!important}
+.music{background:#f0e4da!important;border-top-color:#9d2934!important;border-bottom-color:#9d2934!important}
+.music .eyebrow,.music .song-credits-title{color:#9d2934!important}
+.music .song-story{border-left-color:#c44240!important}
+.music .record{box-shadow:12px 12px 0 #c4a1a0!important}
+.music .record:hover{box-shadow:16px 16px 0 #b88e91!important}
+.music .track-play:hover{background:#b52f3b!important}
+.wave i{background:#bb4147!important}
+input[type=range]{accent-color:#b52f3b!important}
+.oura-video{background:#1d1116!important;border-color:#613940!important}
+.oura-video .video-head h2 em,.oura-video h2 em{color:#e77969!important}
+.band{background:#27171d!important;border-top-color:#76404b!important}
+.band h2 em{color:#e77969!important}
+.dates{background:#f0e4da!important;border-top-color:#9d2934!important}
+.dates .eyebrow{color:#a62c39!important}
+.show time strong{color:#b73542!important}
+.show:hover .show-note,.show:focus-visible .show-note{background:#b73542!important;border-color:#b73542!important}
+.show:hover .show-place h3{color:#b73542!important}
+.photos{background:#190f14!important}
+.manifesto{background:linear-gradient(135deg,#9d2934 0%,#ba4142 50%,#6b2331 100%)!important}
+.manifesto-art{box-shadow:18px 18px 0 #541c2a!important}
+.manifesto-link:hover{color:#6b2331!important}
+.social-band{background:#231319!important;border-top-color:#74414a!important}
+.closing{color:#b73542!important}
+.reading-progress{background:#e77969!important}
+.back-to-top{background:#24131a!important;border-color:#c17b79!important}
+.back-to-top:hover{background:#b73542!important}
+::selection{background:#b73542;color:#fff}
+@media(max-width:800px){.hero-photo{box-shadow:6px 6px 0 #6c2733!important}.music .record:hover{box-shadow:5px 5px 0 #c4a1a0!important}}
