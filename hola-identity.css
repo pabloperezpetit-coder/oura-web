@@ -1,0 +1,53 @@
+/* OURA — identidad HOLA / tinta y ruido */
+:root{--bg:#11100f!important;--ink:#ede5d5!important;--muted:#aaa198!important;--accent:#b94436!important;--line:#51443e!important}
+html{scroll-behavior:smooth}
+body{background:#11100f!important;color:#ede5d5!important;font-family:Arial,Helvetica,sans-serif!important}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1000;opacity:.085;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E")}
+header{background:#11100ff2!important;border-bottom:1px solid #5d4c42!important;backdrop-filter:blur(12px)}
+header .site-logo{filter:grayscale(.15) contrast(1.1)}
+nav a,.nav-listen{font-weight:700!important;letter-spacing:.07em!important;text-transform:uppercase}
+nav a:hover,.text-link:hover,.eyebrow,.merch .eyebrow,.asterisk{color:#bd493a!important}
+nav a:after{background:#bd493a!important}
+.nav-listen{border:1px solid #8b7768!important;border-radius:0!important;color:#ede5d5!important}
+.nav-listen:hover{background:#b94436!important;color:#fff!important;border-color:#b94436!important}
+.hero{position:relative;background:radial-gradient(circle at 85% 30%,#302420 0%,#11100f 55%)!important}
+.hero:before{content:"OURA / 001";position:absolute;top:20px;right:5%;font:700 11px monospace;letter-spacing:.22em;color:#a39583;opacity:.65}
+.hero h1,.section-heading h2,.video-head h2,.band h2{font-family:Georgia,'Times New Roman',serif!important;font-weight:900!important;letter-spacing:-.055em!important;line-height:1.02!important}
+.hero h1 em{font-family:Georgia,serif!important;font-weight:900!important;color:#ede5d5!important}
+.hero-photo img,.photo-grid img,#large-photo{filter:grayscale(1) contrast(1.22) sepia(.14)!important}
+.hero-photo,.photo-grid figure{border:1px solid #675347!important}
+.photo-tag,.primary,.merch-link{background:#b94436!important;color:#fff1e1!important;border-radius:0!important;border:1px solid #d16b58!important}
+.primary:hover,.merch-link:hover{background:#d45a49!important;box-shadow:4px 4px 0 #e4d9c4!important}
+.round-icon{border-color:#e8c5b5!important}
+.section{position:relative}
+.eyebrow{font-family:monospace!important;letter-spacing:.22em!important;font-weight:800!important}
+.music{background:#e8dfce!important;color:#211b18!important;border-top:9px solid #b94436!important;border-bottom:9px solid #b94436!important}
+.music .eyebrow{color:#a33b30!important}
+.music .section-heading h2,.music .section-heading h2 span{color:#211b18!important}
+.music .song-story{border-color:#a99b87!important}
+.record{box-shadow:12px 12px 0 #baab94!important;border:1px solid #574b41!important;background:#eee5d6!important}
+.cover{background:#181412!important}
+.cover img{filter:contrast(1.12) saturate(.78)!important}
+.cover-label,.badge{background:#b94436!important;color:#fff1e1!important;border-radius:0!important}
+.track{color:#211b18!important}
+.track h3{font-family:Georgia,serif!important;font-weight:900!important}
+.track-play{background:#211b18!important;color:#eee5d6!important;border-radius:0!important}
+.wave i{background:#b94436!important}
+input[type=range]{accent-color:#b94436!important}
+.song-credits-title{color:#a33b30!important}
+.oura-video{background:#161311!important;color:#ede5d5!important;border-top:1px solid #675347!important;border-bottom:1px solid #675347!important}
+.oura-video .video-head h2 em,.oura-video h2 em{color:#c44c3b!important}
+.video-frame{border:1px solid #776155!important;box-shadow:10px 10px 0 #2e2420}
+.band{background:#171412!important}
+.band h2 em{color:#c44c3b!important}
+.show time strong,.closing{color:#c44c3b!important}
+.show:hover .show-note,.show:focus-visible .show-note{background:#b94436!important;color:#fff!important;border-color:#b94436!important}
+.show:hover .show-place h3{color:#c44c3b!important}
+.merch{background:#e8dfce!important;color:#211b18!important;border-top:9px solid #b94436!important}
+.merch .eyebrow{color:#a33b30!important}
+.merch-link{background:#211b18!important;color:#f1e8da!important}
+.social-band{background:#171412!important;color:#b8a99c!important}
+.social-band a{color:#ede5d5!important}
+footer{border-top:1px solid #675347!important}
+::selection{background:#b94436;color:#fff}
+@media(max-width:760px){.hero h1{font-size:clamp(49px,11vw,72px)!important;letter-spacing:-.045em!important}.record{box-shadow:5px 5px 0 #baab94!important}.video-frame{box-shadow:5px 5px 0 #2e2420}.hero:before{display:none}}
