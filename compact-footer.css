@@ -1,0 +1,11 @@
+/* Footer compacto OURA */
+.oura-footer{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:20px!important;min-height:94px!important;padding:16px 5%!important;background:#140e10!important;border-top:1px solid #77464b!important;color:#eee2da!important}
+.oura-footer-brand{display:flex;align-items:center;flex-shrink:0}
+.oura-footer-brand img{display:block;width:54px;height:54px;object-fit:contain}
+.oura-footer-copy{font:600 11px/1.4 Arial,sans-serif;letter-spacing:.08em;color:#c8b5b1}
+.oura-footer-links{display:flex;align-items:center;gap:12px}
+.oura-footer-links a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #765257;color:#e9dcd5;transition:background .2s,color .2s,transform .2s}
+.oura-footer-links a:hover{background:#ba343b;color:#fff;transform:translateY(-3px)}
+.oura-footer-links svg{display:block;width:18px;height:18px}
+@media(max-width:600px){.oura-footer{min-height:80px!important;gap:12px!important;padding:12px 5%!important;flex-wrap:wrap!important}.oura-footer-brand img{width:44px;height:44px}.oura-footer-copy{order:3;flex-basis:100%;text-align:center;font-size:10px}.oura-footer-links{margin-left:auto}}
+@media(prefers-reduced-motion:reduce){.oura-footer-links a{transition:none!important}}
