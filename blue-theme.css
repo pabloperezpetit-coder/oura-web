@@ -1,0 +1,30 @@
+/* OURA — prueba de color azul. Reversible quitando este archivo. */
+:root{--accent:#427d9a!important;--line:#4b5962!important}
+header{border-bottom-color:#536875!important}
+nav a:hover,.text-link:hover,.eyebrow,.merch .eyebrow,.asterisk{color:#72a9c6!important}
+nav a:after{background:#427d9a!important}
+.nav-listen:hover{background:#427d9a!important;border-color:#427d9a!important;color:#fff!important}
+.hero{background:radial-gradient(circle at 85% 30%,#1c3443 0%,#10161c 57%)!important}
+.hero h1 em,.band h2 em,.oura-video .video-head h2 em,.oura-video h2 em,.closing,.show time strong{color:#6da7c5!important}
+.hero-photo{box-shadow:13px 13px 0 #244b63!important}
+.photo-tag,.primary,.merch-link,.badge,.cover-label{background:#427d9a!important;border-color:#6ba3c1!important}
+.primary:hover,.merch-link:hover{background:#6099b8!important}
+.music{border-top-color:#427d9a!important;border-bottom-color:#427d9a!important}
+.music .eyebrow,.music .song-credits-title{color:#376b88!important}
+.music .song-story{border-left-color:#427d9a!important}
+.music .record{box-shadow:12px 12px 0 #9aaeb7!important}
+.music .record:hover{box-shadow:16px 16px 0 #8ca3b0!important}
+.music .track-play:hover{background:#427d9a!important}
+.wave i{background:#427d9a!important}
+input[type=range]{accent-color:#427d9a!important}
+.dates{border-top-color:#427d9a!important}
+.dates .eyebrow{color:#376b88!important}
+.show:hover .show-note,.show:focus-visible .show-note{background:#427d9a!important;border-color:#427d9a!important}
+.show:hover .show-place h3{color:#427d9a!important}
+.manifesto{background:#326783!important}
+.manifesto-art{box-shadow:18px 18px 0 #20445a!important}
+.manifesto-link:hover{color:#20445a!important}
+.reading-progress{background:#6da7c5!important}
+.back-to-top:hover{background:#427d9a!important}
+::selection{background:#427d9a!important;color:#fff}
+@media(max-width:800px){.hero-photo{box-shadow:6px 6px 0 #244b63!important}.music .record:hover{box-shadow:5px 5px 0 #9aaeb7!important}}
